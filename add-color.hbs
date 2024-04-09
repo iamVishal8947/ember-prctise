@@ -1,0 +1,6 @@
+<!-- templates/components/add-color.hbs -->
+<div class="add-color">
+  <input type="text" placeholder="Name" value={{this.name}} {{on "input" this.handleInputChange name="name"}} />
+  <input type="text" placeholder="Value" value={{this.value}} {{on "input" this.handleInputChange name="value"}} />
+  <button {{on "click" this.addColor}}>Add Color</button>
+</div>

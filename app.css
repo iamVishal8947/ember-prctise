@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Application styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Color palette styles */
+  .color-palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .color-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .color-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .color-item span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .color-item button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Add color styles */
+  .add-color {
+    margin-top: 20px;
+  }
+  
+  .add-color input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(50% - 5px);
+  }
+  
+  .add-color button {
+    padding: 8px 16px;
+    background-color: #33cc33;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-color button:hover {
+    background-color: #009900;
+  }
+  

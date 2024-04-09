@@ -1,0 +1,6 @@
+<!-- templates/components/color-palette.hbs -->
+<div class="color-palette">
+  {{#each @colors as |color|}}
+    <ColorItem @color={{color}} @onRemove={{@onRemove}} />
+  {{/each}}
+</div>

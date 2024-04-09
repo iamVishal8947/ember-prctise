@@ -1,0 +1,6 @@
+<!-- templates/components/color-item.hbs -->
+<div class="color-item" {{on "click" (fn this.copyToClipboard this.formattedColor)}}>
+  <span>{{this.args.color.name}}</span>
+  <span>{{this.formattedColor}}</span>
+  <button {{on "click" (fn this.args.onRemove this.args.color)}}>Remove</button>
+</div>

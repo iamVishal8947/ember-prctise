@@ -1,0 +1,6 @@
+<!-- templates/application.hbs -->
+<div>
+  <h1>Color Palette</h1>
+  <ColorPalette @colors={{this.colors}} @viewingMode={{this.viewingMode}} @onRemove={{this.removeColor}} />
+  <AddColor @onAdd={{this.addColor}} />
+</div>
